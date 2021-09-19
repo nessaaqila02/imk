@@ -1,0 +1,188 @@
+body {
+    background: #F9F9F9 !important;
+}
+
+
+/* Navbar */
+
+.navbar {
+    margin-top: 30px
+}
+
+.navbar-brand {
+    font-family: 'DM Sans', sans-serif, bold;
+    color: #14134F !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: none !important;
+    color: #FC5868 !important;
+}
+
+.form-inline {
+    margin-top: 30px;
+}
+
+.form-inline .cari {
+    height: 40px;
+    border-radius: 15px;
+    border-color: #F9F9F9;    
+    background-color: #EDF2FE;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.form-inline .tombol {
+    background-color: #F9F9F9;
+    border-radius: 15px;
+    border-color: #FC5868;    
+    color: #14134F;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-size: 12px;
+    width: 100px;
+}
+
+.form-inline .tombol:hover{
+    background-color: #FC5868;
+    border-color: #F9F9F9;
+}
+
+.garis {
+    background-color: #EDF2FE;
+    margin-top: 30px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: #F9F9F9 !important;
+    margin-top: 30px;
+}
+
+.jumbotron .display-4{
+    font-family: DM Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    color: #14134F;
+}
+
+.jumbotron .lead {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6252632141113281px;
+}
+
+.jumbotron .btn {
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #FC5868;
+    font-family: Red Hat Display;
+    font-size: 15px;
+    color: #F9F9F9;
+    border: none;
+    border-radius: 25px;
+}
+
+.jumbotron .btn:hover {
+    background-color: #fc2c40;
+}
+
+.gambar {
+    z-index: 1;
+}
+
+.info-panel {
+    background-color: #14134F;
+    margin-top: -56px;
+    height: 170px;
+    border-color: #F9F9F9;
+    border-radius: 30px;
+    box-shadow: 6px 12px 19px 0px #00000040;
+
+}
+
+
+/* Working Space */
+
+.tempat-ide {
+    margin-top: 228px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.tempat-ide .display-4{
+    font-family: DM Sans;
+    color: #14134F;
+        
+}
+
+.tempat-ide .display-8{
+    font-family: DM Sans;
+    color: #14134F;
+}
+
+
+body > div:nth-child(6) > div > div:nth-child(1) {
+    margin-top: 140px;
+    margin-right: 120px;
+}
+
+body > div:nth-child(6) > div > div:nth-child(3) {
+    margin-top: 140px;
+    margin-left: 120px;    
+}
+
+body > div:nth-child(7) > div > div:nth-child(1) {
+    margin-top: -280px;
+    margin-right: 300px;
+}
+
+body > div:nth-child(7) > div > div:nth-child(2) {
+    margin-top: -280px;
+    margin-left: 300px;
+}
+
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    .form-inline {
+        margin-top: 0px;
+    }
+
+    .form-inline .tombol {
+        height: 40px;
+        width: 110px;
+    }
+
+    .jumbotron {
+        margin-top: 50px;
+    }
+
+    .jumbotron .display-4{
+        font-size: 55px;
+    }
+
+    .jumbotron .lead {
+        margin-top: 30px;
+        font-size: 21px;
+    }
+
+    .jumbotron .btn {
+        margin-top: 30px;
+    }
+
+    .gambar {
+        margin-top: -480px;
+        margin-left: 400px;
+        margin-bottom: 0px;
+    }
+}
